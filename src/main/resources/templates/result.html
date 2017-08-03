@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+    <head>
+        <meta charset="UTF-8"/>
+            <title>Welcome Invoice Application</title>
+    </head>
+    <body>
+        <h1>Forms Result</h1>
+
+         <p th:text="'Product Id:'+${newProduct.id}" />
+         <p th:text="'Product Description:'+${newProduct.description}" />
+         <p th:text="'Product Price:'+${newProduct.price}" />
+         <a href="addproduct">Add More Product</a>
+
+
+</body>
+</html>
